@@ -91,6 +91,12 @@ Part II
         (`git pull upstream master`)
 4. person-A update your github/gitlab fork so it is the same as Person-B
 
+## Images
+
+![Alt text](whiteboard_images/01-git.jpg?raw=true "Title")
+![Alt text](whiteboard_images/02-branching.jpg?raw=true "Title")
+
+
 # Etherpad Contents (From hardvard workshop -- Lots of notes here)
 
 Reference:
