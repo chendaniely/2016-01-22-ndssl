@@ -1,8 +1,13 @@
+# Repository for NDSSL Git workshops
+
+## Website link
 The website for today's lesson can be found here: http://chendaniely.github.io/2016-01-22-ndssl/
 
+## SWC Lessons
 You can read up on the software carpentry Git lesson here: http://swcarpentry.github.io/git-novice/
 There is a testing intermediate Git lesson that covers branching and pull requests here: https://rgaiacs.github.io/swc-git-intermediate/
 
+## Additional Git references
 You can practice git branches here: http://pcottle.github.io/learnGitBranching/
 
 git flow workflow:
@@ -10,7 +15,12 @@ git flow workflow:
 
 http://nvie.com/posts/a-successful-git-branching-model/x`
 
+## Previously recorded screencasts
+https://www.livecoding.tv/video/2015-11-23-harvard-git/
 
+https://www.livecoding.tv/video/2015-11-23-harvard-git-branches/
+
+## Fun links!
 
 We will learn not to do this anymore: https://xkcd.com/1597/
 
