@@ -28,6 +28,16 @@ Please write good commit messages: https://xkcd.com/1296/
 
 Git will help you version control so you you really do end up with 1 final doc: http://www.phdcomics.com/comics/archive.php?comicid=1531
 
+## Git commands
+
+The command to look at everything in the Git graph
+
+`git log --oneline --graph --all --decorate`
+
+I messed something up, let me just reset everything to the last commit
+
+`git reset --hard`
+
 ## Challenge Questions
 ### Collaboration with forks
 Pair up, into person A and person B
@@ -100,48 +110,49 @@ git flow workflow:
 http://nvie.com/posts/a-successful-git-branching-model/x`
 
 git setup:
+```
 $ git config --global user.name "Vlad Dracula"
 $ git config --global user.email "vlad@tran.sylvan.ia"
 $ git config --global color.ui "auto"
 $ git config --global core.editor "nano -w"
+```
 
-
-git init
+`git init`
 this will turn the current folder into a git repository, everything from here on will be tracked
-git status
+`git status`
 
-ls -a will let you see hidden folders - e.g. the .git folder
+`ls -a` will let you see hidden folders - e.g. the .git folder
 
 git status allows us to see what's being tracked and anything that has changed
 
 example:
-git add README.md
-This adds the file to the staging area. This only needs to be done once. You can also use: git add .
+`git add README.md`
+This adds the file to the staging area. This only needs to be done once. You can also use: `git add .`
 
-git config --list        This lets you see what commands you have run
+`git config --list`        This lets you see what commands you have run
 
 .gitignore
 Git will not track what's specified in here
 
 git log will let you see the log of all the work you had done in reverse chronological order
-git log --oneline to see with less whitespace
+`git log --oneline` to see with less whitespace
 exiting using "Q" if running the log opens a new file
 
-git diff to see the differences between two files
+`git diff` to see the differences between two files
 use this if you're not sure why a file is being shown as 'modified'
-git diff HEAD~1 this lets us check what the file looked like two commits behind us
-git diff --stage for one commit behind
+`git diff HEAD~1` this lets us check what the file looked like two commits behind us
+`git diff --stage` for one commit behind
 
-Use "touch" to create a file
+Use `touch` to create a file
 
 Track a deleted file by adding the file after git status just like any other action with a file. You can "undelete" using checkout
 
-checkout
-git checkout is  used to take your "head" and point it somewhere else, like to your old commits
+`checkout`
+`git checkout` is  used to take your "head" and point it somewhere else, like to your old commits
 You can do this using either ~ or the hash from the log
 
 Panic button
-git reset --hard
+`git reset --hard`
 
 Moving a git tracked folder (entire repo) to another folder is fine. Git only tracks what's happening within the repo
 
@@ -156,16 +167,16 @@ Push to the cloud
 Pull to bring it back to your local repo
 
 Adding a remote repo:
-git remote add origin [webaddress.git]
+`git remote add origin [webaddress.git]`
 insert your repo address (https) in the brackets
-Use git remote -v to check whether or not you have connected to your remote repo on GitHub
-git push origin master
+Use `git remote -v` to check whether or not you have connected to your remote repo on GitHub
+`git push origin master`
 this is used to push your local repo to your remote; you may initially be prompted to enter your username and password
 
 Unstaging a file
-git reset
+`git reset`
 
-git pull origin master
+`git pull origin master`
 "pulling" the changes that exist in the remote repo to your local machine
 Fast forward message == extending our local master branch one commit
 
@@ -219,11 +230,11 @@ log and show everthing:
     * hit q to exit the log
 
 Creating a new branch
-git checkout -b something_else
+`git checkout -b something_else`
 replace "something_else" with the name of your new branch
-git branch -a
+`git branch -a`
 lists all the branches
-git checkout branch_name
+`git checkout branch_name`
 used to move between branches. Replace branch_name with the name of your branch or master.
 * using git branch will let you create a branch but will not move you to that branch
 
@@ -232,14 +243,14 @@ Can use cat to see the changes in the repo
 To merge branches you must be on the branch you  want to merge into
 e.g. to merge branches into  master, you much checkout master before you merge
 
-git branch -d
+`git branch -d`
 deletes the branch -- lowercase is safer as you'll be prompted to make sure you're ready to delete. Don't use uppercase.
 
-git push origin --delete [branch_name]
+`git push origin --delete [branch_name]`
 will delete the remote branch
 
-git rebase
-e.g. git rebase master
+`git rebase`
+e.g. `git rebase master`
 re-writting history - rewind and move forward to the head of master then replay commits
 
 Pair up, into person A and person B
