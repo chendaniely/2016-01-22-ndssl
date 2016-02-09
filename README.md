@@ -13,7 +13,7 @@ You can practice git branches here: http://pcottle.github.io/learnGitBranching/
 git flow workflow:
     https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
-http://nvie.com/posts/a-successful-git-branching-model/x`
+http://nvie.com/posts/a-successful-git-branching-model/
 
 ## Previously recorded screencasts
 https://www.livecoding.tv/video/2015-11-23-harvard-git/
