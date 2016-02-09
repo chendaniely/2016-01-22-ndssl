@@ -33,6 +33,7 @@ Git will help you version control so you you really do end up with 1 final doc: 
 Pair up, into person A and person B
 
 Part I
+
 1. person-A fork person-B's repository
 2. person-A clone the forked repository to your local computer
 3. person-A make a change to the repository
@@ -42,6 +43,7 @@ Part I
 6. person-B accept the change
 
 Part II
+
 1. person-B make a new change after your pull request (merge request)
 2. person-B push your changes to your repository.  Note Person-A is not out of sync
 2. person-A add person-B's repository as a new remote (upstream)
@@ -50,6 +52,7 @@ Part II
 4. person-A update your github/gitlab fork so it is the same as Person-B
 
 part III
+
 1. switch roles.
 
 
@@ -57,6 +60,7 @@ part III
 Pair up, into person A and person B
 
 Part I
+
 1. person-A make a change to the repository (use a branch)
 		`git checkout -b BRANCH_NAME`
 2. person-A push the change to your github account
@@ -69,6 +73,7 @@ Part I
         and merge it into person B's master branch
 
 Part II
+
 1. person-B make a new change after your pull request
         Either do it on a new branch or straight onto master
 2. person-B send yourself a pull request and have person a collaborate, and merge
