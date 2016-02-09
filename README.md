@@ -98,8 +98,11 @@ A Quick Guide to Organizing Computational Biology Projects
 http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
 
 http://software-carpentry.org/
+
 go to lessons: http://software-carpentry.org/lessons.html
+
 go to the git site: http://swcarpentry.github.io/git-novice/
+
 Git configurations: http://swcarpentry.github.io/git-novice/02-setup.html
 
 learn git branching: http://pcottle.github.io/learnGitBranching/
